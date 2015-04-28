@@ -1,5 +1,5 @@
 var express = require('express'),
-	User = require('./models/User'),
+	User = require('../models/User'),
 	router = express.Router();
 
 	router.get('/users',function(req,res){
@@ -9,4 +9,4 @@ var express = require('express'),
 	});
 
 
-	modules.exports = router;
+	module.exports = router;
