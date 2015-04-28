@@ -1,0 +1,8 @@
+block head 
+	include templates/header.jade
+block main
+	body(ng-app="home")
+		<div top-nav></div>
+		<div ng-view></div>
+block scripts
+	include templates/scripts.jade

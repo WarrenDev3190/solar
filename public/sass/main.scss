@@ -1,0 +1,20 @@
+@import "bourbon";
+@import "base/base";
+@import "neat";
+
+$red: #d45454;
+$cool-grey:#252525;
+$subbox-white: #fefefe;
+
+body{
+	color: $cool-grey;
+	background-color: @include linear-gradiet(to top, red, orange);
+}
+
+#main{
+	@include outer-container;
+}
+
+article{
+	@include span-columns(6);
+}

@@ -1,0 +1,22 @@
+{
+  "name": "solar",
+  "version": "1.0.0",
+  "authors": [
+    "WarrenDev3190 <warrendev3190@gmail.com>"
+  ],
+  "description": "base solar template",
+  "main": "app.js",
+  "license": "MIT",
+  "dependencies":{
+      "angular":"latest",
+      "angular-route":"latest"
+    },
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "public/libs",
+    "test",
+    "tests"
+  ]
+}
